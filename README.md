@@ -6,7 +6,7 @@
 
 # Table of contents
 - [Headers](#headers)
-
+- [Endpoints](#endpoints)
 
 # Headers
 Most impotant headers:
@@ -97,4 +97,59 @@ headers = {
     'X-Discord-Timezone': 'Europe/Berlin',
     'X-Super-Properties': '' # replace with xsup
 }
+```
+
+# Endpoints
+### Join
+
+```python
+Endpoint https://discord.com/api/v9/invites/{regex}
+Method Post
+Status code 200
+```
+
+### Leave
+
+```python
+Endpoint https://discord.com/api/v9/users/@me/guilds/{serverid}
+Method Delete
+Status code 204
+payload = {
+    'session_id': '' # Replace with the session id (fake with uuid.uuid4().hex)
+}
+```
+
+### Check if in server
+
+```python
+Endpoint https://discord.com/api/v9/guilds/{serverid}
+Method Get
+Status code 200 (means that it is inside)
+payload = {
+    'lurking': False
+}
+```
+
+### Send a message
+
+```python
+Endpoint https://discord.com/api/v9/channels/{channelid}/messages
+Method Post
+Status code 200
+payload 
+{
+    'mobile_network_type': 'unknown',
+    'content': {message},
+    'nonce': {nonce},
+    'tts': False, # tts = text to speech
+    'flags': 0
+}
+```
+
+### Delete a message
+
+```python
+Endpoint https://discord.com/api/v9/channels/{channelid}/messages/{messageid}
+Method Delete
+Status code 204
 ```
