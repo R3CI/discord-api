@@ -2,6 +2,8 @@
 > Current API version is v9.
 >
 > This guide is primarily for Discord **ACCOUNT** tokens, not **BOT** tokens.
+>
+> If this helped you make sure to star ⭐
 
 # Table of Contents
 - [Headers](#headers)
@@ -11,6 +13,7 @@
   - [Authorization](#authorization)
   - [Cookies](#cookies)
   - [Best Universal Headers](#best-universal-headers)
+
 - [Endpoints](#endpoints)
   - [Join](#join)
   - [Leave](#leave)
