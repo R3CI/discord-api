@@ -271,7 +271,7 @@ Payload:
 }
 ```
 
-# Open a DM
+## Open a DM
 
 ```
 Endpoint: https://discord.com/api/v9/users/@me/channels
