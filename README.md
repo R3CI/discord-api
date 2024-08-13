@@ -5,6 +5,8 @@
 >
 > If this helped you make sure to star ⭐
 
+Did not find what you are looking for? Check this https://discord.com/developers/docs/reference
+
 # Table of Contents
 - [Headers](#headers)
   - [User-Agent](#user-agent)
