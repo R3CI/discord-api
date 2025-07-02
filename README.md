@@ -1,7 +1,5 @@
 > [!IMPORTANT]
-> Current API version is v9.
->
-> This guide is primarily for Discord **ACCOUNT** tokens, not **BOT** tokens (Mostly should work for bots but there can be diffrences)
+> Current API version is v9
 >
 > If this helped you make sure to star ⭐
 
