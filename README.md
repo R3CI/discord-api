@@ -25,21 +25,21 @@ Did not find what you are looking for? Check this https://discord.com/developers
 ## Join
 
 ```
-Endpoint: https://discord.com/api/v9/invites/{regex}
-Method: POST
-Status Code: 200
+URL https://discord.com/api/v9/invites/{regex}
+Method POST
+Succeded status 200
+Payload
+{
+    'session_id': ''  # Replace with the session id of the ws connection (fake with uuid.uuid4().hex)
+}
 ```
 
 ## Leave
 
 ```
-Endpoint: https://discord.com/api/v9/users/@me/guilds/{serverid}
-Method: DELETE
-Status Code: 204
-Payload:
-{
-    'session_id': ''  # Replace with the session id (fake with uuid.uuid4().hex)
-}
+URL https://discord.com/api/v9/users/@me/guilds/{serverid}
+Method DELETE
+Succeded status 204
 ```
 
 ## Check If in Server
