@@ -1,4 +1,6 @@
 > [!IMPORTANT]
+> Last update 02.07.2025
+> 
 > Current API version is v9
 >
 > If this helped you make sure to star ⭐
