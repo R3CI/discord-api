@@ -8,22 +8,19 @@
 Did not find what you are looking for? Check this https://discord.com/developers/docs/reference
 
 # Table of Contents
-- [Endpoints](#endpoints)
-  - [Join](#join)
-  - [Leave](#leave)
-  - [Check If in Server](#check-if-in-server)
-  - [Send a Message](#send-a-message)
-  - [Delete a Message](#delete-a-message)
-  - [Edit a Message](#edit-a-message)
-  - [Get Messages](#get-messages)
-  - [React to a message](#react-to-a-message)
-  - [Dereact from a message](#dereact-from-a-message)
-  - [Click a button](#click-a-button)
-  - [Accept rules](#accept-rules)
-  - [Bypass onboarding](#bypass-onboarding)
-  - [Open a DM](#open-a-dm)
-
-# Endpoints
+- [Join](#join)
+- [Leave](#leave)
+- [Check If in Server](#check-if-in-server)
+- [Send a Message](#send-a-message)
+- [Delete a Message](#delete-a-message)
+- [Edit a Message](#edit-a-message)
+- [Get Messages](#get-messages)
+- [React to a message](#react-to-a-message)
+- [Dereact from a message](#dereact-from-a-message)
+- [Click a button](#click-a-button)
+- [Accept rules](#accept-rules)
+- [Bypass onboarding](#bypass-onboarding)
+- [Open a DM](#open-a-dm)
 
 ## Join
 
