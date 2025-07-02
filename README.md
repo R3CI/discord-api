@@ -4,6 +4,8 @@
 > Current API version is v9
 >
 > If this helped you make sure to star ⭐
+>
+> This guide will NOT tell you about api restrictions and how to go about them (and cant post that cause of github) if you want a guide and info check out my shop 
 
 Did not find what you are looking for? Check this https://discord.com/developers/docs/reference
 
